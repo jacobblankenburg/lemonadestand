@@ -1,0 +1,45 @@
+body {
+	margin: auto;
+	width: 839px;
+	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	background: url(pictures/background.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-position: center;
+}
+div.heading {
+	display: block; 
+	height:200px;
+	width: 800px;
+	position: relative;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden; 
+    margin: 20px auto;
+	background-image: url(pictures/title.jpg);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #C8C8C8;
+	border: 10px inset #000000;
+	border-radius: 15px;
+
+	text-align: center;
+	vertical-align: center;
+	font-family: "Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+}
+.radio-label {
+    float: left;
+    margin-right: 3%;
+}
+.radio-input {
+    float: left;
+}
+fieldset {
+    text-align: center;
+}
+div {
+    display: inline-block;
+    margin: auto;
+    border: 1px solid black;
+}
